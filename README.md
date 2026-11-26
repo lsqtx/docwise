@@ -54,7 +54,7 @@
 
 ## 四、系统架构
 
-```mermaid
+```markdown
 flowchart LR
     A[上传文档<br/>PDF DOCX TXT MD] --> B[文档解析<br/>统一为 Document]
     B --> C[递归字符切分<br/>500 字 重叠 80]
@@ -309,9 +309,3 @@ python -m unittest discover -s tests -v
 ## 十二、开源协议
 
 本项目采用 MIT License，详见 [LICENSE](LICENSE)。
-
-## 十三、作者
-
-李诗琪 · 软件2405班 · 学号 20245994
-
-如果这个项目对你有帮助，欢迎点亮 Star。
